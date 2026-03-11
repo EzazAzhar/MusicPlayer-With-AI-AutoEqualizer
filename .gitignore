@@ -1,0 +1,41 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# JavaFX SDK (crucial to ignore large binary files)
+javafx-sdk-*/
+javafx-sdk/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# Build folders
+out/
+target/
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large media files (optional, but good practice to ignore if they are huge)
+*.mp3
+*.wav
