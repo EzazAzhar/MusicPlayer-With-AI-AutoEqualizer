@@ -1,4 +1,4 @@
-# <img src="play.png" width="40" height="40" align="center"> SoundNest: AI-Powered Adaptive Music Player
+# SoundNest: AI-Powered Adaptive Music Player
 
 [![Java Version](https://img.shields.io/badge/Java-24-orange.svg?style=for-the-badge&logo=openjdk)](https://openjdk.org/projects/jdk/24/)
 [![JavaFX](https://img.shields.io/badge/JavaFX-24-blue.svg?style=for-the-badge&logo=java)](https://openjfx.io/)
@@ -11,35 +11,35 @@
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 In the modern era of digital music, static equalizer settings often fail to capture the nuances of diverse genres. **SoundNest** solves this by implementing an **AI Auto-Equalizer** engine. Using a Python-based audio analysis backend, the system extracts spectral features (MFCCs, spectral centroids, energy) to predict and apply optimal 5-band EQ gains (Bass, Low Mid, Midrange, Presence, Treble).
 
-### Real-World Context
+## Real-World Context
 This project demonstrates the integration of multi-language systems (Java & Python) and cloud-native databases (Aiven) to create a seamless, high-performance desktop application.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🧠 Core AI Engine
+### Core AI Engine
 - **Predictive Equalization**: Automatically analyzes `.mp3` files upon playback to set the 5-band EQ.
 - **Deep Audio Analysis**: Utilizes `librosa` for extracting advanced audio features.
 - **Real-time Synchronization**: Java backend communicates with Python via high-speed subprocesses for instant feedback.
 
-### 🎨 Premium UX/UI
+### Premium UX/UI
 - **Smooth RGB Animations**: A vibrant, color-shifting header using HSB-based interpolation.
 - **Modern Dark Theme**: A sleek, Dracula-inspired palette for reduced eye strain and a premium feel.
 - **Intuitive Library Management**: TreeView-based file explorer for local music discovery.
 
-### ☁️ Cloud & Persistence
+### Cloud & Persistence
 - **Aiven MySQL Integration**: All song metadata is synchronized with a high-availability cloud database.
 - **Automated Migration**: Seamlessly migrates legacy local XAMPP databases to the cloud on first run.
 - **Sync-Ready Library**: Access your song library metadata from any instance connected to the cloud db.
 
 ---
 
-## 🛠 Technical Stack
+## Technical Stack
 
 | Component | Technology | Version |
 | :--- | :--- | :--- |
@@ -52,7 +52,7 @@ This project demonstrates the integration of multi-language systems (Java & Pyth
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 The application follows a modular architecture separating UI, Business Logic, and the AI Analysis layer.
 
@@ -74,7 +74,7 @@ graph TD
 
 ---
 
-## 📦 Quick Start & Installation
+## Quick Start & Installation
 
 ### Prerequisites
 1. **Java Development Kit (JDK) 24**: Ensure `JAVA_HOME` is set.
@@ -103,7 +103,7 @@ graph TD
 
 ---
 
-## 🖥 Usage Guide
+## Usage Guide
 
 1. **Add Music**: Click "Add Music Folder" to scan your local drive.
 2. **Play & Analyze**: Double-click a song. Notice the "Predicting EQ..." status - the AI is working!
@@ -112,7 +112,7 @@ graph TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 SoundNest/
@@ -130,14 +130,14 @@ SoundNest/
 
 ---
 
-## 📈 Performance & Optimization
+## Performance & Optimization
 - **Parallel Processing**: AI analysis runs in a background thread to prevent UI freezing.
 - **Connection Pooling**: Optimized MySQL queries for low-latency metadata retrieval.
 - **Resource Management**: Automatical disposal of media resources to prevent memory leaks.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are what make the open-source community an amazing place to learn, inspire, and create.
 1. Fork the Project
@@ -148,14 +148,18 @@ Contributions are what make the open-source community an amazing place to learn,
 
 ---
 
-## 📜 License
+## License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 📧 Contact
-**Ezaz Azhar** - [GitHub](https://github.com/EzazAzhar) - [LinkedIn](https://linkedin.com/in/ezazazhar)
+## Contact
+**Ezaz Azhar** - [GitHub](https://github.com/EzazAzhar) - [LinkedIn](https://www.linkedin.com/in/ezaz-azhar-1a6394384)
 Project Link: [https://github.com/EzazAzhar/MusicPlayer-With-AI-AutoEqualizer](https://github.com/EzazAzhar/MusicPlayer-With-AI-AutoEqualizer)
+
+---
+<p align="center">Made for the Audio & AI Community</p>
+.com/EzazAzhar/MusicPlayer-With-AI-AutoEqualizer)
 
 ---
 <p align="center">Made with ❤️ for the Audio & AI Community</p>
