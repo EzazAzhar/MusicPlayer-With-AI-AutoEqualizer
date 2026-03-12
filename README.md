@@ -159,7 +159,3 @@ Project Link: [https://github.com/EzazAzhar/MusicPlayer-With-AI-AutoEqualizer](h
 
 ---
 <p align="center">Made for the Audio & AI Community</p>
-.com/EzazAzhar/MusicPlayer-With-AI-AutoEqualizer)
-
----
-<p align="center">Made with ❤️ for the Audio & AI Community</p>
